@@ -74,7 +74,6 @@ func main() {
 	}
 
 	fmt.Println(`
-
 func popN(stack []string, n int) []string {
 	var val = len(stack) - n
 	var value = stack[val:]
